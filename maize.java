@@ -8,3 +8,5 @@ public class Main {
         int height = scanner.nextInt();
 
         MazeGenerator generator = new MazeGenerator(width, height);
+
+             int[][][] maze = generator.maze;
